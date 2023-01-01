@@ -13,8 +13,6 @@ blueprint:
           - Notifications (English and Italian) 
           
           - Decidere la fascia oraria di funzionamento"
-
-
   domain: automation
   input:
 
