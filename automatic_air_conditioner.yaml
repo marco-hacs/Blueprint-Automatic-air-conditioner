@@ -365,5 +365,4 @@ action:
                   {% elif language == 'English' and trigger.id == 'window' %} Air conditioner turned off because the window was opened.
                   {% elif language == 'English' and (trigger.id == 'climate_off' or trigger.id == 'presence_home')%} Automatic air conditioner shutdown.
                   {% elif language == 'English' and trigger.id == 'moisture_climate_off' %} Air conditioner off for water drain container full.
-                  {% endif %}"
-          
+                  {% endif %}
