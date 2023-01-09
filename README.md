@@ -19,6 +19,13 @@ Below the settings for operation are:
 7) **Presence Home**: OPTIONAL Select from the list the group created with person entities for: 
 - Turn on the air conditioner if the conditions set for startup are met
 - Turn off the air conditioner at the time when you switch to the not\_home state
+```
+group:
+  famiglia:
+    entities:
+      - person.marco
+      - person.serena
+```
 8) **Water level**. OPTIONAL: Select the binary\_sensor used to indicate full water tank. To function, it must be set with *device\_class: moisture*.
 9) **Window**: OPTIONAL select the binary sensor used for the window contact. To function, it must be set with *device\_class: window*
 10) **Target temperature start**: Set the startup temperature:
