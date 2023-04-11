@@ -241,7 +241,7 @@ trigger:
   attribute: current_temperature
   above: !input target_temperature_start
   id: climate_on
-- platform: numeric_state
+- platform: numeric_state 
   entity_id: !input climate
   attribute: current_temperature 
   below: !input target_temperature_start
